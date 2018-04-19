@@ -5,10 +5,7 @@ html {
     box-sizing: border-box;
     font-size: 9px;
     font-family: 'Montserrat', 'Open Sans', sans-serif;
-    /*    height: 100%;*/
-    /*    width: 100%;*/
     overflow: hidden;
-
 }
 
 ::selection {
@@ -20,10 +17,11 @@ header {
     /*    widok calego ekranu 100vh*/
     background: url(background-dog3-640x426.jpg) 25% center no-repeat;
     background-size: cover;
-    height: 100%;
+    height: 100vh;
     position: absolute;
-    min-width: 280px;
-    /*    min-height: 310px;*/
+    top: 0;
+    left: 0;
+    width: 100wv;
 }
 
 button {
@@ -397,7 +395,6 @@ footer {}
         /*    widok calego ekranu 100vh*/
         background: url(background-dog3-1280x853.jpg) 25% center no-repeat;
         background-size: cover;
-        height: 100%;
         position: absolute;
         min-width: 280px;
         min-height: 310px;
