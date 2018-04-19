@@ -356,12 +356,16 @@ footer {}
 
 @media (min-width: 480px) and (min-height: 425px) {
     .down-buttons {
-        height: 12.5%;
+        height: 13.5%;
     }
 
     .top-button {
-        bottom: 12.5%;
+        bottom: 13.5%;
         height: 4.5%;
+    }
+    .main-text {
+        width: 80%;
+        transform: translate(-50%, -90%);
     }
 
 }
